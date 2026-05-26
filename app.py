@@ -51,15 +51,15 @@ def home_page() -> None:
         st.markdown("#### Top Recommendations")
         st.write(
             "Go straight to world's best novels with recommendations based on real Goodreads ratings."
-            "Every book here carries an exceptionally high rating with detailed synopsis cards."
+            " Every book here carries an exceptionally high rating with detailed synopsis cards."
         )
         st.caption("👉 Click *Top Recommendation* in the sidebar to view.")
 
     with col_bot:
         st.markdown("#### FictionFinder AI Chatbot")
         st.write(
-            "Have a highly specific storyline mood in mind? Talk directly with FictionFinder, "
-            "an AI assistant designed to help you find your dream novel."
+            "Talk directly with FictionFinder, "
+            "an AI assistant designed to help you find your next read!"
         )
         st.caption("👉 Click *FictionFinder* in the sidebar to chat.")
 
